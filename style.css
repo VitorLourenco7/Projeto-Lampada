@@ -1,0 +1,56 @@
+
+
+main , header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.title {
+    font-style: oblique;
+    font-size: 50px;
+    color: black;
+}
+
+
+.turnOn {
+    font-size: 17px;
+    width: 150px;
+    height: 50px;
+    border-radius: 29px;
+    border: none;
+    font-weight: 700;
+    background: green;
+    color: black;
+    cursor: pointer;
+}
+
+.turnOn:hover {
+    opacity: 0.8;
+    transform: scale(1.1)
+}
+
+.turnOff {
+    font-size: 17px;
+    width: 150px;
+    height: 50px;
+    border-radius: 29px;
+    border: none;
+    font-weight: 700;
+    background: red;
+    color: black;
+    cursor: pointer;
+}
+
+.turnOff:hover {
+    opacity: 0.8;
+    transform: scale(1.1)
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
